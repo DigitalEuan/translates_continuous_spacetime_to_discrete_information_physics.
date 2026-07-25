@@ -1,0 +1,185 @@
+{
+  "axis_1_form_degree": [
+    {
+      "k": 0,
+      "geometric_entity": "Vertex / Point",
+      "field_question": "Where does scalar value increase fastest?",
+      "vector_calculus": "Gradient \u2207f",
+      "ubp_equivalent": "Code Weight W(v) / Energy Potential E(v)",
+      "operator_symbol": "\u2207"
+    },
+    {
+      "k": 1,
+      "geometric_entity": "Edge / Line",
+      "field_question": "Is the field rotating around this loop?",
+      "vector_calculus": "Curl \u2207\u00d7A",
+      "ubp_equivalent": "XOR Parity Loop / Parity Check Syndrome s(v)=H\u00b7v",
+      "operator_symbol": "\u2207\u00d7"
+    },
+    {
+      "k": 2,
+      "geometric_entity": "Face / Surface",
+      "field_question": "Is field flowing out of or into this boundary?",
+      "vector_calculus": "Divergence \u2207\u00b7A",
+      "ubp_equivalent": "AND Mass Defect / Flux Deficit \u0394m(a,b)",
+      "operator_symbol": "\u2207\u00b7"
+    },
+    {
+      "k": 3,
+      "geometric_entity": "Cell / Volume",
+      "field_question": "What is the enclosed density charge?",
+      "vector_calculus": "Volume integral \u222d\u03c1 dV",
+      "ubp_equivalent": "Substrate Density / MOG Octad Density (759 octads)",
+      "operator_symbol": "\u222d"
+    }
+  ],
+  "axis_2_projection_kernels": [
+    {
+      "kernel": "Linear",
+      "name": "Orthographic",
+      "preserves": "Linear subspaces / Hamming weights",
+      "math_definition": "P projects along parallel lines perpendicular to plane; ker(P) = V\u22a5",
+      "use_case": "Linear binary codes (G_24 generator matrix projections, parity checks)",
+      "ubp_application": "Codeword enumeration, syndrome calculation, AND/XOR closure tests"
+    },
+    {
+      "kernel": "Conformal",
+      "name": "Stereographic",
+      "preserves": "Angles, circles, conformal metrics (NRCI)",
+      "math_definition": "P projects from pole N \u2208 S^n onto tangential hyperplane",
+      "use_case": "Spherical polytopes, Leech lattice kissing points (196,560 vectors)",
+      "ubp_application": "NRCI field analysis, Module 5 Leech harmonic projection"
+    },
+    {
+      "kernel": "Topological",
+      "name": "Schlegel Diagram",
+      "preserves": "Face-adjacency, cell connectivity, boundary intersections",
+      "math_definition": "Perspective projection from point just outside one top-dimensional cell",
+      "use_case": "4D configuration spaces (8-cell, 24-cell, 120-cell), robotics path planning",
+      "ubp_application": "MOG column adjacency, Module 2 ghost-state shell topology"
+    },
+    {
+      "kernel": "Symmetry",
+      "name": "Petrie Polygon",
+      "preserves": "Maximum finite rotational symmetry groups (W(F_4), W(H_4), M_24)",
+      "math_definition": "Projection onto 2D plane defined by the Coxeter element",
+      "use_case": "Hunting for core resonances, rotational invariants, harmonic symmetries",
+      "ubp_application": "Y-constant harmonic peaks, Module 5 angular power spectrum"
+    }
+  ],
+  "axis_3_substrate_hierarchy": [
+    {
+      "dimension": 4,
+      "discrete_code": "[4,2,2] trivial",
+      "polytope": "5-cell / 8-cell (tesseract)",
+      "field_operator": "Scalar (Gradient)",
+      "ubp_constants": "Y^0 = 1 (Identity)",
+      "and_closure": 1.0,
+      "xor_closure": 1.0,
+      "dnc_ratio": 0.5
+    },
+    {
+      "dimension": 8,
+      "discrete_code": "[8,4,4] extended Hamming",
+      "polytope": "16-cell / 24-cell",
+      "field_operator": "Vector field (Curl)",
+      "ubp_constants": "Y^1 = 0.2647",
+      "and_closure": 0.344,
+      "xor_closure": 1.0,
+      "dnc_ratio": 0.5
+    },
+    {
+      "dimension": 12,
+      "discrete_code": "[12,6,6] ternary Golay",
+      "polytope": "120-cell",
+      "field_operator": "Flux / Surface (Divergence)",
+      "ubp_constants": "Y^2 = 0.0701",
+      "and_closure": 0.054,
+      "xor_closure": 0.004,
+      "dnc_ratio": 0.5
+    },
+    {
+      "dimension": 14,
+      "discrete_code": "[14,7,2] truncated Golay (naive truncation)",
+      "polytope": "(none standard \u2014 transition zone)",
+      "field_operator": "Mixed (Phase transition)",
+      "ubp_constants": "Y^3 = 0.0186",
+      "and_closure": 0.336,
+      "xor_closure": 1.0,
+      "dnc_ratio": 0.143,
+      "note": "Phase transition zone; naive truncation breaks Steiner structure"
+    },
+    {
+      "dimension": 24,
+      "discrete_code": "[24,12,8] extended binary Golay",
+      "polytope": "600-cell / Leech Lattice \u039b_24",
+      "field_operator": "Full Hodge Diamond",
+      "ubp_constants": "Y^6 = 0.000342 (Information layer)",
+      "and_closure": 0.01,
+      "xor_closure": 1.0,
+      "dnc_ratio": 0.333
+    }
+  ],
+  "rosetta_stone": [
+    {
+      "input_goal": "Track rate of code energy change",
+      "form_degree": 0,
+      "operator_required": "Gradient (\u2207E)",
+      "optimal_projection": "Orthographic",
+      "structural_example": "Hamming weight / energy gradient across code states"
+    },
+    {
+      "input_goal": "Detect parity loops / phase rotations",
+      "form_degree": 1,
+      "operator_required": "Curl (\u2207\u00d7A)",
+      "optimal_projection": "Petrie Polygon",
+      "structural_example": "Syndrome check loops / automorphism subgroup cycles"
+    },
+    {
+      "input_goal": "Measure information flow / leakage",
+      "form_degree": 2,
+      "operator_required": "Divergence (\u2207\u00b7A)",
+      "optimal_projection": "Stereographic",
+      "structural_example": "AND mass defect flux across MOG quadrants"
+    },
+    {
+      "input_goal": "Map robot configuration space paths",
+      "form_degree": 3,
+      "operator_required": "Volume integration",
+      "optimal_projection": "Schlegel Diagram",
+      "structural_example": "4D tesseract / 24-cell collision-free path mapping"
+    },
+    {
+      "input_goal": "Analyze coherence / NRCI fields",
+      "form_degree": "Metric field",
+      "operator_required": "Conformal Laplacian \u0394_g",
+      "optimal_projection": "Hyperspherical Stereographic",
+      "structural_example": "S\u00b3 \u2192 R\u00b3 projection of Leech lattice kissing points"
+    }
+  ],
+  "d_squared_zero_axiom": {
+    "H_GT_zero_mod2": true,
+    "all_codewords_zero_syndrome": true,
+    "n_codewords_tested": 4096,
+    "octad_intersection_weights": [
+      2,
+      4,
+      8
+    ],
+    "steiner_intersection_subset_of_0248": true,
+    "d_squared_zero_axiom_holds": true,
+    "interpretation": "H \u00b7 G^T = 0 (mod 2) is the discrete analog of d\u00b2=0 in differential geometry. It means: every codeword's syndrome is zero (the parity-check operator annihilates the generator's row-space).  This is the unifying axiom that connects UBP's linear algebra to discrete exterior calculus."
+  },
+  "summary_directives": [
+    "Treat d\u00b2=0 as the unifying axiom: align all LDP linear algebra (H\u00b7G^T=0) with discrete exterior derivatives.",
+    "Never force rendering styles: Schlegel for topology/adjacency, Stereographic for metric fields/NRCI, Petrie for symmetry/harmonics, Orthographic for linear parity/weights.",
+    "Map operators to form dimensions: Gradient \u2192 vertices, Curl \u2192 edges, Divergence \u2192 faces. The equations cease to be arbitrary \u2014 they become inevitable consequences of discrete geometry."
+  ],
+  "mapping_count": {
+    "form_degrees": 4,
+    "projection_kernels": 4,
+    "substrate_dimensions": 5,
+    "rosetta_entries": 5,
+    "total_3axis_cells": 80
+  }
+}
