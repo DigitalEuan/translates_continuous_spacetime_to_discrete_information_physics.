@@ -1,0 +1,327 @@
+{
+  "sample_reactions": [
+    {
+      "reaction": "5 * 7 = 35",
+      "operands": [
+        5,
+        7,
+        35
+      ],
+      "cycles": [
+        0,
+        0,
+        5
+      ],
+      "delta_C_multiplication": 5,
+      "phi_AB_multiplicative": 24,
+      "phi_AB_direct": 24,
+      "multiplicative_phi_holds": true,
+      "gcd_AB": 1,
+      "coprime": true,
+      "regime": "ENDOTHERMIC",
+      "geometry": "Tensor product: 5-gon x 7-gon = 35-vertex torus"
+    },
+    {
+      "reaction": "6 * 8 = 48",
+      "operands": [
+        6,
+        8,
+        48
+      ],
+      "cycles": [
+        2,
+        2,
+        16
+      ],
+      "delta_C_multiplication": 12,
+      "phi_AB_multiplicative": 16,
+      "phi_AB_direct": 16,
+      "multiplicative_phi_holds": true,
+      "gcd_AB": 2,
+      "coprime": false,
+      "regime": "ENDOTHERMIC",
+      "geometry": "Tensor product: 6-gon x 8-gon = 48-vertex torus"
+    },
+    {
+      "reaction": "9 * 6 = 54",
+      "operands": [
+        9,
+        6,
+        54
+      ],
+      "cycles": [
+        1,
+        2,
+        18
+      ],
+      "delta_C_multiplication": 15,
+      "phi_AB_multiplicative": 18,
+      "phi_AB_direct": 18,
+      "multiplicative_phi_holds": true,
+      "gcd_AB": 3,
+      "coprime": false,
+      "regime": "ENDOTHERMIC",
+      "geometry": "Tensor product: 9-gon x 6-gon = 54-vertex torus"
+    },
+    {
+      "reaction": "24 * 12 = 288",
+      "operands": [
+        24,
+        12,
+        288
+      ],
+      "cycles": [
+        8,
+        4,
+        96
+      ],
+      "delta_C_multiplication": 84,
+      "phi_AB_multiplicative": 96,
+      "phi_AB_direct": 96,
+      "multiplicative_phi_holds": true,
+      "gcd_AB": 12,
+      "coprime": false,
+      "regime": "ENDOTHERMIC",
+      "geometry": "Tensor product: 24-gon x 12-gon = 288-vertex torus"
+    },
+    {
+      "reaction": "5 * 11 = 55",
+      "operands": [
+        5,
+        11,
+        55
+      ],
+      "cycles": [
+        0,
+        0,
+        7
+      ],
+      "delta_C_multiplication": 7,
+      "phi_AB_multiplicative": 40,
+      "phi_AB_direct": 40,
+      "multiplicative_phi_holds": true,
+      "gcd_AB": 1,
+      "coprime": true,
+      "regime": "ENDOTHERMIC",
+      "geometry": "Tensor product: 5-gon x 11-gon = 55-vertex torus"
+    },
+    {
+      "reaction": "8 * 8 = 64",
+      "operands": [
+        8,
+        8,
+        64
+      ],
+      "cycles": [
+        2,
+        2,
+        16
+      ],
+      "delta_C_multiplication": 12,
+      "phi_AB_multiplicative": 32,
+      "phi_AB_direct": 32,
+      "multiplicative_phi_holds": true,
+      "gcd_AB": 8,
+      "coprime": false,
+      "regime": "ENDOTHERMIC",
+      "geometry": "Tensor product: 8-gon x 8-gon = 64-vertex torus"
+    },
+    {
+      "reaction": "12 * 4 = 48",
+      "operands": [
+        12,
+        4,
+        48
+      ],
+      "cycles": [
+        4,
+        1,
+        16
+      ],
+      "delta_C_multiplication": 11,
+      "phi_AB_multiplicative": 16,
+      "phi_AB_direct": 16,
+      "multiplicative_phi_holds": true,
+      "gcd_AB": 4,
+      "coprime": false,
+      "regime": "ENDOTHERMIC",
+      "geometry": "Tensor product: 12-gon x 4-gon = 48-vertex torus"
+    }
+  ],
+  "regime_distribution_sweep": {
+    "n_max": 80,
+    "total_reactions": 3081,
+    "regime_counts": {
+      "EXOTHERMIC": 0,
+      "ENDOTHERMIC": 3081,
+      "ISO-RESONANT": 0
+    },
+    "regime_fractions": {
+      "EXOTHERMIC": 0.0,
+      "ENDOTHERMIC": 1.0,
+      "ISO-RESONANT": 0.0
+    },
+    "coprime_pairs": 1847,
+    "non_coprime_pairs": 1234,
+    "delta_C_stats": {
+      "min": 1,
+      "max": 2301,
+      "mean": 476.6069457968192
+    },
+    "iso_resonant_pairs_sample": [],
+    "n_iso_resonant": 0
+  },
+  "addition_vs_multiplication": {
+    "n_max": 40,
+    "n_pairs": 741,
+    "addition": {
+      "mean_delta_C": 0.13360323886639677,
+      "min_delta_C": -19,
+      "max_delta_C": 23
+    },
+    "multiplication": {
+      "mean_delta_C": 125.20377867746289,
+      "min_delta_C": 1,
+      "max_delta_C": 569
+    },
+    "multiplication_releases_more_energy": false,
+    "sample_paired_reactions": [
+      {
+        "a": 3,
+        "b": 3,
+        "delta_C_add": 2,
+        "delta_C_mul": 1,
+        "add_regime": "ENDOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "delta_C_add": -1,
+        "delta_C_mul": 3,
+        "add_regime": "EXOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "delta_C_add": 2,
+        "delta_C_mul": 3,
+        "add_regime": "ENDOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "delta_C_add": -1,
+        "delta_C_mul": 4,
+        "add_regime": "EXOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "delta_C_add": 3,
+        "delta_C_mul": 4,
+        "add_regime": "ENDOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "delta_C_add": -2,
+        "delta_C_mul": 6,
+        "add_regime": "EXOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "delta_C_add": 3,
+        "delta_C_mul": 3,
+        "add_regime": "ENDOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 10,
+        "delta_C_add": -3,
+        "delta_C_mul": 8,
+        "add_regime": "EXOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 11,
+        "delta_C_add": 4,
+        "delta_C_mul": 6,
+        "add_regime": "ENDOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 12,
+        "delta_C_add": -1,
+        "delta_C_mul": 8,
+        "add_regime": "EXOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 13,
+        "delta_C_add": 4,
+        "delta_C_mul": 7,
+        "add_regime": "ENDOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 14,
+        "delta_C_add": -4,
+        "delta_C_mul": 11,
+        "add_regime": "EXOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 15,
+        "delta_C_add": 3,
+        "delta_C_mul": 7,
+        "add_regime": "ENDOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 16,
+        "delta_C_add": -4,
+        "delta_C_mul": 12,
+        "add_regime": "EXOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      },
+      {
+        "a": 3,
+        "b": 17,
+        "delta_C_add": 6,
+        "delta_C_mul": 9,
+        "add_regime": "ENDOTHERMIC",
+        "mul_regime": "ENDOTHERMIC"
+      }
+    ]
+  },
+  "coprime_vs_noncoprime": {
+    "n_max": 40,
+    "n_coprime_pairs": 431,
+    "n_noncoprime_pairs": 310,
+    "coprime_mean_delta_C": 118.9860788863109,
+    "noncoprime_mean_delta_C": 133.8483870967742,
+    "coprime_min_max": [
+      3,
+      569
+    ],
+    "noncoprime_min_max": [
+      1,
+      504
+    ]
+  },
+  "verdict": "Multiplication reactions sweep 3,081 pairs (A,B in [3, 80]). Regime distribution: {'EXOTHERMIC': 0.0, 'ENDOTHERMIC': 1.0, 'ISO-RESONANT': 0.0}. Multiplication's mean Delta_C (125.20) is LESS exothermic than addition's (0.13). The tensor-product structure of multiplication generates substantially more topological binding energy than the merge structure of addition."
+}

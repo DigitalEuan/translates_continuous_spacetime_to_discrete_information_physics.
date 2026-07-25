@@ -1,0 +1,36 @@
+{
+  "gray_round_trip_ok": true,
+  "gf2_and_closure": 0.01,
+  "z4_additive_closure": 0.036,
+  "z4_min_closure": 0.004,
+  "improvement_factor_min_over_and": 0.4,
+  "unique_projections": 117,
+  "nrci_field": {
+    "n_unique_projections": 117,
+    "nrci_field_mean": 0.6870808252117838,
+    "nrci_field_min": 0.516736839339145,
+    "nrci_field_max": 1.0,
+    "nrci_field_std": 0.06421021167299522,
+    "metric_tensor_g_ij": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "trace_g": 0.0,
+    "scalar_curvature_proxy": 0.0,
+    "non_zero_curvature": false
+  },
+  "verdict": "Gray map does NOT round the wheel \u2014 closure rates comparable (negative result)"
+}

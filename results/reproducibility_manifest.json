@@ -1,0 +1,107 @@
+{
+  "project": "Project Catenary-Hodge",
+  "version": "1.0.0",
+  "run_mode": "full",
+  "python_version": "3.12.13",
+  "platform": "Linux-5.10.134-013.8.3.kangaroo.al8.x86_64-x86_64-with-glibc2.41",
+  "started_at": "2026-07-25 07:51:51 UTC",
+  "modules": {
+    "catenary_hodge.modules.module1_catenary_profile_ladder": {
+      "name": "Module 1: Catenary Profile Ladder",
+      "elapsed_seconds": 1.56,
+      "success": true
+    },
+    "catenary_hodge.modules.module2_ghost_state_renormalization": {
+      "name": "Module 2: Ghost State Renormalization",
+      "elapsed_seconds": 72.8,
+      "success": true
+    },
+    "catenary_hodge.modules.module3_z4_quaternary_projection": {
+      "name": "Module 3: Z_4 Quaternary Projection",
+      "elapsed_seconds": 0.19,
+      "success": true
+    },
+    "catenary_hodge.modules.module4_relativistic_dispersion_audit": {
+      "name": "Module 4: Relativistic Dispersion Audit",
+      "elapsed_seconds": 1.08,
+      "success": true
+    },
+    "catenary_hodge.modules.module5_leech_harmonic_projection": {
+      "name": "Module 5: Leech Harmonic Projection",
+      "elapsed_seconds": 4.11,
+      "success": true
+    },
+    "catenary_hodge.modules.module6_spatial_catenary": {
+      "name": "Module 6: Spatial Catenary",
+      "elapsed_seconds": 1.51,
+      "success": true
+    },
+    "catenary_hodge.modules.module7_coordinate_free_hodge": {
+      "name": "Module 7: Coordinate-Free Hodge",
+      "elapsed_seconds": 1.72,
+      "success": true
+    },
+    "catenary_hodge.modules.module8_spatial_y_constant": {
+      "name": "Module 8: Spatial Y-Constant",
+      "elapsed_seconds": 0.33,
+      "success": true
+    },
+    "catenary_hodge.modules.module9_intrinsic_extrinsic_duality": {
+      "name": "Module 9: Intrinsic-Extrinsic Duality",
+      "elapsed_seconds": 0.27,
+      "success": true
+    },
+    "catenary_hodge.modules.module10_multiplication_tensor": {
+      "name": "Module 10: Multiplication Tensor Product",
+      "elapsed_seconds": 0.24,
+      "success": true
+    },
+    "catenary_hodge.modules.module11_topological_mass": {
+      "name": "Module 11: Topological Mass & Asymptotic Density",
+      "elapsed_seconds": 0.23,
+      "success": true
+    },
+    "catenary_hodge.modules.module12_steiner_iso_resonance": {
+      "name": "Module 12: Steiner ISO-RESONANCE Sweep [NEW]",
+      "elapsed_seconds": 0.34,
+      "success": true
+    },
+    "catenary_hodge.modules.module13_y_hexadecad_totient": {
+      "name": "Module 13: Y-Hexadecad-Totient Hidden Structure [NEW]",
+      "elapsed_seconds": 0.28,
+      "success": true
+    },
+    "catenary_hodge.modules.module14_topological_mass_density_constant": {
+      "name": "Module 14: Topological Mass Density as New UBP Constant [NEW]",
+      "elapsed_seconds": 0.29,
+      "success": true
+    },
+    "catenary_hodge.capstone.master_system": {
+      "name": "Capstone: 3-Axis Master System",
+      "elapsed_seconds": 0.16,
+      "success": true
+    }
+  },
+  "figures_elapsed_seconds": 7.34,
+  "tests_passed": true,
+  "tests_elapsed_seconds": 22.86,
+  "result_files": {
+    "capstone_master_system.json": "d330a28114b8afe4d5b1d026a7ff1eab515ee6fedd22d0843aea4eadc5d376aa",
+    "module10_multiplication_tensor.json": "2837ea39dfe4a118afc3984cc8f119cac364ec8148755954a4451318a5378c1b",
+    "module11_topological_mass.json": "c1ea6716a382cd41de2dde7b79a4508d295f2d35e8b4165995ce85e49e53fd61",
+    "module12_steiner_iso_resonance.json": "4ae489dc818102fc641c171ca9fd0b401f27eaae3315c1c6703b1e3859440f58",
+    "module13_y_hexadecad_totient.json": "428acf8e62e9e4bbc6dae15bd21a7c36b9d8595eba20c207bbbd0e098333361c",
+    "module14_topological_mass_density_constant.json": "146c717b39c3fee63cae4e3193f6ed8d2ac3a062d6910350f73b7bbd7cdc88fc",
+    "module1_catenary_ladder.json": "29fc488f449d66abcb79725d5ddbb2c16c041cbd9107631ce28d27b70e83da16",
+    "module2_ghost_states.json": "53378432ef6225ae389e60050e70bf072f36f9ed2dfdbe40aec77c8c41680c53",
+    "module3_z4_projection.json": "89827496a7f989c0a703c93e819da579561801cb1f88feeb10de615c9edbd894",
+    "module4_dispersion.json": "97b72312f4267fe137d74a8abfe149513fb39754e32f6c26ba0632681a27bddf",
+    "module5_leech_harmonic.json": "035666d4464a6a942d941e5c7481f548d76a75a8582f1a655a962874db1ff5ef",
+    "module6_spatial_catenary.json": "233a5311e550d4c4878b919ea2931e1cb7befb2162e75a5001cb60fd798b8c7b",
+    "module7_coordinate_free_hodge.json": "6211cdd334f175f73b6f6a390d174c89bc3ced89c9f08aca8da0a3f9c6f7c556",
+    "module8_spatial_y_constant.json": "66d1f54253b3ebe582d61a2b817ffb48386d94782ba966ce98ea4369e070b5ed",
+    "module9_intrinsic_extrinsic_duality.json": "02136a0a000d8bc824d1ee434787a82f0e4e2bff30043c7973dc27bff0abef55",
+    "reproducibility_manifest.json": "b8ecb9dcdafc81afa93e3c5054d922e41d45001d4ff48bf92a647aca0a7e7a6b"
+  },
+  "finished_at": "2026-07-25 07:53:47 UTC"
+}

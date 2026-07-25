@@ -1,0 +1,263 @@
+{
+  "spatial_weight_spectrum": {
+    "weight_classes": [
+      {
+        "weight": 0,
+        "codeword_count": 1,
+        "spatial_value": 0,
+        "node_count": 4,
+        "theoretical_radius": 0.7071067811865476,
+        "actual_radius": 0.7566005703409532,
+        "sample_codeword_weight": 0
+      },
+      {
+        "weight": 8,
+        "codeword_count": 759,
+        "spatial_value": 2,
+        "node_count": 8,
+        "theoretical_radius": 1.3065629648763766,
+        "actual_radius": 1.2532713882707056,
+        "sample_codeword_weight": 8
+      },
+      {
+        "weight": 12,
+        "codeword_count": 2576,
+        "spatial_value": 4,
+        "node_count": 12,
+        "theoretical_radius": 1.9318516525781368,
+        "actual_radius": 1.8334857372838047,
+        "sample_codeword_weight": 12
+      },
+      {
+        "weight": 16,
+        "codeword_count": 759,
+        "spatial_value": 6,
+        "node_count": 16,
+        "theoretical_radius": 2.5629154477415064,
+        "actual_radius": 2.448057551827272,
+        "sample_codeword_weight": 16
+      },
+      {
+        "weight": 24,
+        "codeword_count": 1,
+        "spatial_value": 10,
+        "node_count": 24,
+        "theoretical_radius": 3.830648787770195,
+        "actual_radius": 3.6240086204428477,
+        "sample_codeword_weight": 24
+      }
+    ],
+    "natural_primitive": "R(n) = 1 / (2 * sin(pi/n))",
+    "interpretation": "Each Golay weight class maps to a unique spatial cycle. The radius spectrum R(0), R(2), R(4), R(6), R(10) gives a 1D geometric embedding of the weight enumerator. The cup product (AND) between two codewords corresponds spatially to placing them at MULTIPLY distance (3\u00d7 radius)."
+  },
+  "roundtrip_ok_count": 50,
+  "roundtrip_total": 50,
+  "stratified_hodge_gap": [
+    {
+      "stratum": "zero \u00d7 octad",
+      "n_samples": 40,
+      "and_closure_rate": 1.0,
+      "and_weight_distribution": {
+        "0": 40
+      },
+      "mean_dihedral_angle_deg": 64.15126334412155
+    },
+    {
+      "stratum": "octad \u00d7 octad",
+      "n_samples": 40,
+      "and_closure_rate": 0.025,
+      "and_weight_distribution": {
+        "0": 1,
+        "2": 28,
+        "4": 11
+      },
+      "mean_dihedral_angle_deg": 58.9577748577661
+    },
+    {
+      "stratum": "octad \u00d7 dodecad",
+      "n_samples": 40,
+      "and_closure_rate": 0.0,
+      "and_weight_distribution": {
+        "2": 4,
+        "4": 25,
+        "6": 11
+      },
+      "mean_dihedral_angle_deg": 59.820614467798826
+    },
+    {
+      "stratum": "dodecad \u00d7 dodecad",
+      "n_samples": 40,
+      "and_closure_rate": 0.0,
+      "and_weight_distribution": {
+        "4": 6,
+        "6": 32,
+        "8": 2
+      },
+      "mean_dihedral_angle_deg": 54.26588187347321
+    },
+    {
+      "stratum": "hexadecad \u00d7 all-ones",
+      "n_samples": 40,
+      "and_closure_rate": 1.0,
+      "and_weight_distribution": {
+        "16": 40
+      },
+      "mean_dihedral_angle_deg": 61.601539664524125
+    }
+  ],
+  "operator_distance_tests": [
+    {
+      "c1_weight": 8,
+      "c2_weight": 8,
+      "v1": 2,
+      "v2": 2,
+      "expected_op": "MULTIPLY",
+      "observed": {
+        "ok": true,
+        "a": 2,
+        "b": 2,
+        "operator": "MULTIPLY",
+        "modifier": "SQUARE",
+        "angle": 39.5,
+        "base_result": 4,
+        "result": 16
+      }
+    },
+    {
+      "c1_weight": 8,
+      "c2_weight": 8,
+      "v1": 2,
+      "v2": 2,
+      "expected_op": "ADD",
+      "observed": {
+        "ok": true,
+        "a": 2,
+        "b": 2,
+        "operator": "ADD",
+        "modifier": "SQUARE",
+        "angle": 39.5,
+        "base_result": 4,
+        "result": 16
+      }
+    },
+    {
+      "c1_weight": 12,
+      "c2_weight": 12,
+      "v1": 4,
+      "v2": 4,
+      "expected_op": "MULTIPLY",
+      "observed": {
+        "ok": true,
+        "a": 4,
+        "b": 4,
+        "operator": "MULTIPLY",
+        "modifier": "SQUARE",
+        "angle": 39.7,
+        "base_result": 16,
+        "result": 256
+      }
+    }
+  ],
+  "spatial_hodge_filter_aggregate": {
+    "n_samples": 200,
+    "and_closure_rate": 0.005,
+    "and_weight_distribution": {
+      "2": 15,
+      "4": 45,
+      "6": 79,
+      "8": 46,
+      "10": 12,
+      "12": 3
+    },
+    "mean_dihedral_angle": 57.55486746561385,
+    "dihedral_modifier_histogram": {
+      "ID": 19,
+      "NEGATE": 82,
+      "SQUARE": 99
+    },
+    "mean_radius_ratio": 1.0344113828160417,
+    "sample_first_5": [
+      {
+        "c1_weight": 8,
+        "c2_weight": 8,
+        "and_weight": 2,
+        "and_is_codeword": false,
+        "c1_spatial_value": 2,
+        "c2_spatial_value": 2,
+        "spatial_radius_c1": 1.2532713882707056,
+        "spatial_radius_c2": 1.2532713882707056,
+        "spatial_radius_ratio": 1.0,
+        "centroid_distance": 0.0,
+        "distance_ratio": 0.0,
+        "suggested_operator": "NONE",
+        "dihedral_angle_deg": 41.231223820172794,
+        "dihedral_modifier": "SQUARE"
+      },
+      {
+        "c1_weight": 16,
+        "c2_weight": 12,
+        "and_weight": 8,
+        "and_is_codeword": false,
+        "c1_spatial_value": 6,
+        "c2_spatial_value": 4,
+        "spatial_radius_c1": 2.4480575518272714,
+        "spatial_radius_c2": 1.833485737283804,
+        "spatial_radius_ratio": 1.3351931253383609,
+        "centroid_distance": 2.1073424255447017e-08,
+        "distance_ratio": 8.608222563933377e-09,
+        "suggested_operator": "NONE",
+        "dihedral_angle_deg": 11.564502814763765,
+        "dihedral_modifier": "ID"
+      },
+      {
+        "c1_weight": 12,
+        "c2_weight": 12,
+        "and_weight": 6,
+        "and_is_codeword": false,
+        "c1_spatial_value": 4,
+        "c2_spatial_value": 4,
+        "spatial_radius_c1": 1.8334857372838045,
+        "spatial_radius_c2": 1.8334857372838043,
+        "spatial_radius_ratio": 1.0000000000000002,
+        "centroid_distance": 0.0,
+        "distance_ratio": 0.0,
+        "suggested_operator": "NONE",
+        "dihedral_angle_deg": 66.24173151096367,
+        "dihedral_modifier": "SQUARE"
+      },
+      {
+        "c1_weight": 8,
+        "c2_weight": 8,
+        "and_weight": 2,
+        "and_is_codeword": false,
+        "c1_spatial_value": 2,
+        "c2_spatial_value": 2,
+        "spatial_radius_c1": 1.2532713882707056,
+        "spatial_radius_c2": 1.2532713882707054,
+        "spatial_radius_ratio": 1.0000000000000002,
+        "centroid_distance": 0.0,
+        "distance_ratio": 0.0,
+        "suggested_operator": "NONE",
+        "dihedral_angle_deg": 82.36793534343465,
+        "dihedral_modifier": "NEGATE"
+      },
+      {
+        "c1_weight": 12,
+        "c2_weight": 16,
+        "and_weight": 10,
+        "and_is_codeword": false,
+        "c1_spatial_value": 4,
+        "c2_spatial_value": 6,
+        "spatial_radius_c1": 1.833485737283805,
+        "spatial_radius_c2": 2.4480575518272714,
+        "spatial_radius_ratio": 0.7489553241570078,
+        "centroid_distance": 0.0,
+        "distance_ratio": 0.0,
+        "suggested_operator": "NONE",
+        "dihedral_angle_deg": 51.625081898471976,
+        "dihedral_modifier": "SQUARE"
+      }
+    ]
+  },
+  "verdict": "Codeword weights map bijectively to 5 distinct spatial radii ([0.7071, 1.3066, 1.9319, 2.5629, 3.8306]). Spatial Hodge filter confirms AND-closure rate = 0.0050 (matches Module 1's binary AND-closure at 24D). Mean dihedral angle = 57.6\u00b0, modifier histogram = {'ID': 19, 'NEGATE': 82, 'SQUARE': 99}. Spatial encoding provides a coordinate-free, geometric view of the Hodge gap."
+}

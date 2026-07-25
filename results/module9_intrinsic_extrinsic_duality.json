@@ -1,0 +1,865 @@
+{
+  "duality_table": {
+    "n_max": 60,
+    "n_integers": 58,
+    "n_primes": 16,
+    "n_composites": 42,
+    "primes_all_ground_state": true,
+    "rows": [
+      {
+        "n": 3,
+        "intrinsic_phi_N": 2,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 0.5773502691896258,
+        "extrinsic_R_gyr": 0.5773502691896258,
+        "extrinsic_tension": 0.3954002119219272,
+        "shared_R_N": 0.5773502691896258
+      },
+      {
+        "n": 4,
+        "intrinsic_phi_N": 2,
+        "intrinsic_C_N": 1,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 1,
+        "extrinsic_R_N": 0.7071067811865476,
+        "extrinsic_R_gyr": 0.7071067811865476,
+        "extrinsic_tension": 0.2146018366025516,
+        "shared_R_N": 0.7071067811865476
+      },
+      {
+        "n": 5,
+        "intrinsic_phi_N": 4,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 0.8506508083520399,
+        "extrinsic_R_gyr": 0.8506508083520399,
+        "extrinsic_tension": 0.13519373402279,
+        "shared_R_N": 0.8506508083520399
+      },
+      {
+        "n": 6,
+        "intrinsic_phi_N": 2,
+        "intrinsic_C_N": 2,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 2,
+        "extrinsic_R_N": 1.0000000000000002,
+        "extrinsic_R_gyr": 1.0000000000000002,
+        "extrinsic_tension": 0.09310031788289108,
+        "shared_R_N": 1.0000000000000002
+      },
+      {
+        "n": 7,
+        "intrinsic_phi_N": 6,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 1.1523824354812433,
+        "extrinsic_R_gyr": 1.1523824354812433,
+        "extrinsic_tension": 0.06805937650090421,
+        "shared_R_N": 1.1523824354812433
+      },
+      {
+        "n": 8,
+        "intrinsic_phi_N": 4,
+        "intrinsic_C_N": 2,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 2,
+        "extrinsic_R_N": 1.3065629648763766,
+        "extrinsic_R_gyr": 1.3065629648763766,
+        "extrinsic_tension": 0.05194055103148021,
+        "shared_R_N": 1.3065629648763766
+      },
+      {
+        "n": 9,
+        "intrinsic_phi_N": 6,
+        "intrinsic_C_N": 1,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 1,
+        "extrinsic_R_N": 1.4619022000815438,
+        "extrinsic_R_gyr": 1.4619022000815436,
+        "extrinsic_tension": 0.040949458126390614,
+        "shared_R_N": 1.4619022000815438
+      },
+      {
+        "n": 10,
+        "intrinsic_phi_N": 4,
+        "intrinsic_C_N": 3,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 3,
+        "extrinsic_R_N": 1.618033988749895,
+        "extrinsic_R_gyr": 1.618033988749895,
+        "extrinsic_tension": 0.03311720095359727,
+        "shared_R_N": 1.618033988749895
+      },
+      {
+        "n": 11,
+        "intrinsic_phi_N": 10,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 1.7747327664421118,
+        "extrinsic_R_gyr": 1.7747327664421118,
+        "extrinsic_tension": 0.02733799908009349,
+        "shared_R_N": 1.7747327664421118
+      },
+      {
+        "n": 12,
+        "intrinsic_phi_N": 4,
+        "intrinsic_C_N": 4,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 4,
+        "extrinsic_R_N": 1.9318516525781368,
+        "extrinsic_R_gyr": 1.9318516525781366,
+        "extrinsic_tension": 0.022951383343146614,
+        "shared_R_N": 1.9318516525781368
+      },
+      {
+        "n": 13,
+        "intrinsic_phi_N": 12,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 2.0892907344301888,
+        "extrinsic_R_gyr": 2.089290734430189,
+        "extrinsic_tension": 0.01954288965208839,
+        "shared_R_N": 2.0892907344301888
+      },
+      {
+        "n": 14,
+        "intrinsic_phi_N": 6,
+        "intrinsic_C_N": 4,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 4,
+        "extrinsic_R_N": 2.246979603717467,
+        "extrinsic_R_gyr": 2.246979603717467,
+        "extrinsic_tension": 0.016841660617053833,
+        "shared_R_N": 2.246979603717467
+      },
+      {
+        "n": 15,
+        "intrinsic_phi_N": 8,
+        "intrinsic_C_N": 3,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 3,
+        "extrinsic_R_N": 2.404867172372066,
+        "extrinsic_R_gyr": 2.404867172372066,
+        "extrinsic_tension": 0.014664574013676268,
+        "shared_R_N": 2.404867172372066
+      },
+      {
+        "n": 16,
+        "intrinsic_phi_N": 8,
+        "intrinsic_C_N": 4,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 4,
+        "extrinsic_R_N": 2.5629154477415064,
+        "extrinsic_R_gyr": 2.5629154477415064,
+        "extrinsic_tension": 0.012884199027224708,
+        "shared_R_N": 2.5629154477415064
+      },
+      {
+        "n": 17,
+        "intrinsic_phi_N": 16,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 2.721095575875903,
+        "extrinsic_R_gyr": 2.7210955758759034,
+        "extrinsic_tension": 0.011409628736115063,
+        "shared_R_N": 2.721095575875903
+      },
+      {
+        "n": 18,
+        "intrinsic_phi_N": 6,
+        "intrinsic_C_N": 6,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 6,
+        "extrinsic_R_N": 2.879385241571817,
+        "extrinsic_R_gyr": 2.879385241571817,
+        "extrinsic_tension": 0.010174594391758385,
+        "shared_R_N": 2.879385241571817
+      },
+      {
+        "n": 19,
+        "intrinsic_phi_N": 18,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 3.03776691048713,
+        "extrinsic_R_gyr": 3.03776691048713,
+        "extrinsic_tension": 0.009129861606598011,
+        "shared_R_N": 3.03776691048713
+      },
+      {
+        "n": 20,
+        "intrinsic_phi_N": 8,
+        "intrinsic_C_N": 6,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 6,
+        "extrinsic_R_N": 3.196226610749831,
+        "extrinsic_R_gyr": 3.1962266107498305,
+        "extrinsic_tension": 0.008238231245272676,
+        "shared_R_N": 3.196226610749831
+      },
+      {
+        "n": 21,
+        "intrinsic_phi_N": 12,
+        "intrinsic_C_N": 4,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 4,
+        "extrinsic_R_N": 3.354753069904199,
+        "extrinsic_R_gyr": 3.3547530699041994,
+        "extrinsic_tension": 0.007471172595664433,
+        "shared_R_N": 3.354753069904199
+      },
+      {
+        "n": 22,
+        "intrinsic_phi_N": 10,
+        "intrinsic_C_N": 6,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 6,
+        "extrinsic_R_N": 3.513337091666135,
+        "extrinsic_R_gyr": 3.513337091666135,
+        "extrinsic_tension": 0.006806506709171489,
+        "shared_R_N": 3.513337091666135
+      },
+      {
+        "n": 23,
+        "intrinsic_phi_N": 22,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 3.671971098051956,
+        "extrinsic_R_gyr": 3.671971098051956,
+        "extrinsic_tension": 0.006226781431848849,
+        "shared_R_N": 3.671971098051956
+      },
+      {
+        "n": 24,
+        "intrinsic_phi_N": 8,
+        "intrinsic_C_N": 8,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 8,
+        "extrinsic_R_N": 3.830648787770195,
+        "extrinsic_R_gyr": 3.830648787770195,
+        "extrinsic_tension": 0.005718111707841977,
+        "shared_R_N": 3.830648787770195
+      },
+      {
+        "n": 25,
+        "intrinsic_phi_N": 20,
+        "intrinsic_C_N": 2,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 2,
+        "extrinsic_R_N": 3.989364877779738,
+        "extrinsic_R_gyr": 3.989364877779738,
+        "extrinsic_tension": 0.005269338856127015,
+        "shared_R_N": 3.989364877779738
+      },
+      {
+        "n": 26,
+        "intrinsic_phi_N": 12,
+        "intrinsic_C_N": 7,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 7,
+        "extrinsic_R_N": 4.148114905279377,
+        "extrinsic_R_gyr": 4.148114905279378,
+        "extrinsic_tension": 0.0048714123261131,
+        "shared_R_N": 4.148114905279377
+      },
+      {
+        "n": 27,
+        "intrinsic_phi_N": 18,
+        "intrinsic_C_N": 4,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 4,
+        "extrinsic_R_N": 4.3068950742389545,
+        "extrinsic_R_gyr": 4.306895074238954,
+        "extrinsic_tension": 0.004516929086729626,
+        "shared_R_N": 4.3068950742389545
+      },
+      {
+        "n": 28,
+        "intrinsic_phi_N": 12,
+        "intrinsic_C_N": 8,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 8,
+        "extrinsic_R_N": 4.465702135190253,
+        "extrinsic_R_gyr": 4.465702135190254,
+        "extrinsic_tension": 0.004199786322462651,
+        "shared_R_N": 4.465702135190253
+      },
+      {
+        "n": 29,
+        "intrinsic_phi_N": 28,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 4.624533290151295,
+        "extrinsic_R_gyr": 4.624533290151296,
+        "extrinsic_tension": 0.003914916658462442,
+        "shared_R_N": 4.624533290151295
+      },
+      {
+        "n": 30,
+        "intrinsic_phi_N": 8,
+        "intrinsic_C_N": 11,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 11,
+        "extrinsic_R_N": 4.783386116752814,
+        "extrinsic_R_gyr": 4.783386116752813,
+        "extrinsic_tension": 0.003658084234615333,
+        "shared_R_N": 4.783386116752814
+      },
+      {
+        "n": 31,
+        "intrinsic_phi_N": 30,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 4.942258507184823,
+        "extrinsic_R_gyr": 4.942258507184823,
+        "extrinsic_tension": 0.0034257261528278793,
+        "shared_R_N": 4.942258507184823
+      },
+      {
+        "n": 32,
+        "intrinsic_phi_N": 16,
+        "intrinsic_C_N": 8,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 8,
+        "extrinsic_R_N": 5.101148618689164,
+        "extrinsic_R_gyr": 5.101148618689163,
+        "extrinsic_tension": 0.003214828113830226,
+        "shared_R_N": 5.101148618689164
+      },
+      {
+        "n": 33,
+        "intrinsic_phi_N": 20,
+        "intrinsic_C_N": 6,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 6,
+        "extrinsic_R_N": 5.260054833125996,
+        "extrinsic_R_gyr": 5.260054833125997,
+        "extrinsic_tension": 0.003022826068647344,
+        "shared_R_N": 5.260054833125996
+      },
+      {
+        "n": 34,
+        "intrinsic_phi_N": 16,
+        "intrinsic_C_N": 9,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 9,
+        "extrinsic_R_N": 5.4189757237297105,
+        "extrinsic_R_gyr": 5.4189757237297105,
+        "extrinsic_tension": 0.00284752784526765,
+        "shared_R_N": 5.4189757237297105
+      },
+      {
+        "n": 35,
+        "intrinsic_phi_N": 24,
+        "intrinsic_C_N": 5,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 5,
+        "extrinsic_R_N": 5.577910027604511,
+        "extrinsic_R_gyr": 5.577910027604511,
+        "extrinsic_tension": 0.0026870502441005417,
+        "shared_R_N": 5.577910027604511
+      },
+      {
+        "n": 36,
+        "intrinsic_phi_N": 12,
+        "intrinsic_C_N": 12,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 12,
+        "extrinsic_R_N": 5.736856622834928,
+        "extrinsic_R_gyr": 5.736856622834927,
+        "extrinsic_tension": 0.0025397682082741735,
+        "shared_R_N": 5.736856622834928
+      },
+      {
+        "n": 37,
+        "intrinsic_phi_N": 36,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 5.895814509331754,
+        "extrinsic_R_gyr": 5.895814509331754,
+        "extrinsic_tension": 0.0024042734902858243,
+        "shared_R_N": 5.895814509331754
+      },
+      {
+        "n": 38,
+        "intrinsic_phi_N": 18,
+        "intrinsic_C_N": 10,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 10,
+        "extrinsic_R_N": 6.054782792720508,
+        "extrinsic_R_gyr": 6.054782792720508,
+        "extrinsic_tension": 0.002279340839902666,
+        "shared_R_N": 6.054782792720508
+      },
+      {
+        "n": 39,
+        "intrinsic_phi_N": 24,
+        "intrinsic_C_N": 7,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 7,
+        "extrinsic_R_N": 6.213760670722739,
+        "extrinsic_R_gyr": 6.213760670722739,
+        "extrinsic_tension": 0.0021639001886873954,
+        "shared_R_N": 6.213760670722739
+      },
+      {
+        "n": 40,
+        "intrinsic_phi_N": 16,
+        "intrinsic_C_N": 12,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 12,
+        "extrinsic_R_N": 6.372747421591187,
+        "extrinsic_R_gyr": 6.372747421591188,
+        "extrinsic_tension": 0.0020570136456425914,
+        "shared_R_N": 6.372747421591187
+      },
+      {
+        "n": 41,
+        "intrinsic_phi_N": 40,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 6.531742394246072,
+        "extrinsic_R_gyr": 6.531742394246073,
+        "extrinsic_tension": 0.001957856375795708,
+        "shared_R_N": 6.531742394246072
+      },
+      {
+        "n": 42,
+        "intrinsic_phi_N": 12,
+        "intrinsic_C_N": 15,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 15,
+        "extrinsic_R_N": 6.690744999827377,
+        "extrinsic_R_gyr": 6.690744999827376,
+        "extrinsic_tension": 0.0018657006302685852,
+        "shared_R_N": 6.690744999827377
+      },
+      {
+        "n": 43,
+        "intrinsic_phi_N": 42,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 6.849754704431377,
+        "extrinsic_R_gyr": 6.849754704431376,
+        "extrinsic_tension": 0.0017799023478362042,
+        "shared_R_N": 6.849754704431377
+      },
+      {
+        "n": 44,
+        "intrinsic_phi_N": 20,
+        "intrinsic_C_N": 12,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 12,
+        "extrinsic_R_N": 7.0087710228420494,
+        "extrinsic_R_gyr": 7.0087710228420494,
+        "extrinsic_tension": 0.0016998898653647343,
+        "shared_R_N": 7.0087710228420494
+      },
+      {
+        "n": 45,
+        "intrinsic_phi_N": 24,
+        "intrinsic_C_N": 10,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 10,
+        "extrinsic_R_N": 7.167793513101838,
+        "extrinsic_R_gyr": 7.167793513101839,
+        "extrinsic_tension": 0.0016251543660968926,
+        "shared_R_N": 7.167793513101838
+      },
+      {
+        "n": 46,
+        "intrinsic_phi_N": 22,
+        "intrinsic_C_N": 12,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 12,
+        "extrinsic_R_N": 7.326821771793456,
+        "extrinsic_R_gyr": 7.3268217717934565,
+        "extrinsic_tension": 0.0015552417666168106,
+        "shared_R_N": 7.326821771793456
+      },
+      {
+        "n": 47,
+        "intrinsic_phi_N": 46,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 7.485855429926348,
+        "extrinsic_R_gyr": 7.485855429926349,
+        "extrinsic_tension": 0.0014897458000439068,
+        "shared_R_N": 7.485855429926348
+      },
+      {
+        "n": 48,
+        "intrinsic_phi_N": 16,
+        "intrinsic_C_N": 16,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 16,
+        "extrinsic_R_N": 7.644894149339256,
+        "extrinsic_R_gyr": 7.644894149339256,
+        "extrinsic_tension": 0.001428302098025469,
+        "shared_R_N": 7.644894149339256
+      },
+      {
+        "n": 49,
+        "intrinsic_phi_N": 42,
+        "intrinsic_C_N": 3,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 3,
+        "extrinsic_R_N": 7.803937619544856,
+        "extrinsic_R_gyr": 7.803937619544856,
+        "extrinsic_tension": 0.0013705831100248034,
+        "shared_R_N": 7.803937619544856
+      },
+      {
+        "n": 50,
+        "intrinsic_phi_N": 20,
+        "intrinsic_C_N": 15,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 15,
+        "extrinsic_R_N": 7.962985554954328,
+        "extrinsic_R_gyr": 7.962985554954328,
+        "extrinsic_tension": 0.0013162937271847808,
+        "shared_R_N": 7.962985554954328
+      },
+      {
+        "n": 51,
+        "intrinsic_phi_N": 32,
+        "intrinsic_C_N": 9,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 9,
+        "extrinsic_R_N": 8.122037692429531,
+        "extrinsic_R_gyr": 8.122037692429531,
+        "extrinsic_tension": 0.0012651675012729235,
+        "shared_R_N": 8.122037692429531
+      },
+      {
+        "n": 52,
+        "intrinsic_phi_N": 24,
+        "intrinsic_C_N": 14,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 14,
+        "extrinsic_R_N": 8.281093789118493,
+        "extrinsic_R_gyr": 8.281093789118493,
+        "extrinsic_tension": 0.0012169633679791625,
+        "shared_R_N": 8.281093789118493
+      },
+      {
+        "n": 53,
+        "intrinsic_phi_N": 52,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 8.4401536205367,
+        "extrinsic_R_gyr": 8.4401536205367,
+        "extrinsic_tension": 0.0011714627991145088,
+        "shared_R_N": 8.4401536205367
+      },
+      {
+        "n": 54,
+        "intrinsic_phi_N": 18,
+        "intrinsic_C_N": 18,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 18,
+        "extrinsic_R_N": 8.599216978862176,
+        "extrinsic_R_gyr": 8.599216978862176,
+        "extrinsic_tension": 0.0011284673207290208,
+        "shared_R_N": 8.599216978862176
+      },
+      {
+        "n": 55,
+        "intrinsic_phi_N": 40,
+        "intrinsic_C_N": 7,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 7,
+        "extrinsic_R_N": 8.7582836714171,
+        "extrinsic_R_gyr": 8.758283671417102,
+        "extrinsic_tension": 0.0010877963443745031,
+        "shared_R_N": 8.7582836714171
+      },
+      {
+        "n": 56,
+        "intrinsic_phi_N": 24,
+        "intrinsic_C_N": 16,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 16,
+        "extrinsic_R_N": 8.917353519312535,
+        "extrinsic_R_gyr": 8.917353519312535,
+        "extrinsic_tension": 0.001049285267161526,
+        "shared_R_N": 8.917353519312535
+      },
+      {
+        "n": 57,
+        "intrinsic_phi_N": 36,
+        "intrinsic_C_N": 10,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 10,
+        "extrinsic_R_N": 9.076426356236187,
+        "extrinsic_R_gyr": 9.076426356236187,
+        "extrinsic_tension": 0.0010127838031929182,
+        "shared_R_N": 9.076426356236187
+      },
+      {
+        "n": 58,
+        "intrinsic_phi_N": 28,
+        "intrinsic_C_N": 15,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 15,
+        "extrinsic_R_N": 9.235502027365888,
+        "extrinsic_R_gyr": 9.235502027365888,
+        "extrinsic_tension": 0.0009781545147224957,
+        "shared_R_N": 9.235502027365888
+      },
+      {
+        "n": 59,
+        "intrinsic_phi_N": 58,
+        "intrinsic_C_N": 0,
+        "intrinsic_is_prime": true,
+        "intrinsic_topological_mass": 0,
+        "extrinsic_R_N": 9.394580388393848,
+        "extrinsic_R_gyr": 9.394580388393846,
+        "extrinsic_tension": 0.000945271516177737,
+        "shared_R_N": 9.394580388393848
+      },
+      {
+        "n": 60,
+        "intrinsic_phi_N": 16,
+        "intrinsic_C_N": 22,
+        "intrinsic_is_prime": false,
+        "intrinsic_topological_mass": 22,
+        "extrinsic_R_N": 9.5536613046487,
+        "extrinsic_R_gyr": 9.553661304648703,
+        "extrinsic_tension": 0.0009140193281725884,
+        "shared_R_N": 9.5536613046487
+      }
+    ],
+    "summary": "58 integers, 16 primes, 42 composites. All primes at ground state (C=0) \u2014 Prime Ground State Theorem verified."
+  },
+  "prime_ground_state_verification": {
+    "n_max": 999,
+    "n_tested": 997,
+    "n_mismatches": 0,
+    "mismatches": [],
+    "theorem_verified": true
+  },
+  "intrinsic_extrinsic_link": {
+    "n_max": 12,
+    "shared_primitive": "R(N) = 1 / (2 sin(pi/N))",
+    "rows": [
+      {
+        "n": 3,
+        "R_N_intrinsic": 0.5773502691896258,
+        "R_N_extrinsic": 0.5773502691896258,
+        "R_N_shared": 0.5773502691896258,
+        "C_N_intrinsic": 0,
+        "tension_intrinsic": 0.3954002119219272,
+        "interpretation": "PRIME ground state (no internal sub-cycles)"
+      },
+      {
+        "n": 4,
+        "R_N_intrinsic": 0.7071067811865476,
+        "R_N_extrinsic": 0.7071067811865476,
+        "R_N_shared": 0.7071067811865476,
+        "C_N_intrinsic": 1,
+        "tension_intrinsic": 0.2146018366025516,
+        "interpretation": "COMPOSITE excited state (C=1 sub-cycles)"
+      },
+      {
+        "n": 5,
+        "R_N_intrinsic": 0.8506508083520399,
+        "R_N_extrinsic": 0.8506508083520399,
+        "R_N_shared": 0.8506508083520399,
+        "C_N_intrinsic": 0,
+        "tension_intrinsic": 0.13519373402279,
+        "interpretation": "PRIME ground state (no internal sub-cycles)"
+      },
+      {
+        "n": 6,
+        "R_N_intrinsic": 1.0000000000000002,
+        "R_N_extrinsic": 1.0000000000000002,
+        "R_N_shared": 1.0000000000000002,
+        "C_N_intrinsic": 2,
+        "tension_intrinsic": 0.09310031788289108,
+        "interpretation": "COMPOSITE excited state (C=2 sub-cycles)"
+      },
+      {
+        "n": 7,
+        "R_N_intrinsic": 1.1523824354812433,
+        "R_N_extrinsic": 1.1523824354812433,
+        "R_N_shared": 1.1523824354812433,
+        "C_N_intrinsic": 0,
+        "tension_intrinsic": 0.06805937650090421,
+        "interpretation": "PRIME ground state (no internal sub-cycles)"
+      },
+      {
+        "n": 8,
+        "R_N_intrinsic": 1.3065629648763766,
+        "R_N_extrinsic": 1.3065629648763766,
+        "R_N_shared": 1.3065629648763766,
+        "C_N_intrinsic": 2,
+        "tension_intrinsic": 0.05194055103148021,
+        "interpretation": "COMPOSITE excited state (C=2 sub-cycles)"
+      },
+      {
+        "n": 9,
+        "R_N_intrinsic": 1.4619022000815438,
+        "R_N_extrinsic": 1.4619022000815438,
+        "R_N_shared": 1.4619022000815438,
+        "C_N_intrinsic": 1,
+        "tension_intrinsic": 0.040949458126390614,
+        "interpretation": "COMPOSITE excited state (C=1 sub-cycles)"
+      },
+      {
+        "n": 10,
+        "R_N_intrinsic": 1.618033988749895,
+        "R_N_extrinsic": 1.618033988749895,
+        "R_N_shared": 1.618033988749895,
+        "C_N_intrinsic": 3,
+        "tension_intrinsic": 0.03311720095359727,
+        "interpretation": "COMPOSITE excited state (C=3 sub-cycles)"
+      },
+      {
+        "n": 11,
+        "R_N_intrinsic": 1.7747327664421118,
+        "R_N_extrinsic": 1.7747327664421118,
+        "R_N_shared": 1.7747327664421118,
+        "C_N_intrinsic": 0,
+        "tension_intrinsic": 0.02733799908009349,
+        "interpretation": "PRIME ground state (no internal sub-cycles)"
+      },
+      {
+        "n": 12,
+        "R_N_intrinsic": 1.9318516525781368,
+        "R_N_extrinsic": 1.9318516525781368,
+        "R_N_shared": 1.9318516525781368,
+        "C_N_intrinsic": 4,
+        "tension_intrinsic": 0.022951383343146614,
+        "interpretation": "COMPOSITE excited state (C=4 sub-cycles)"
+      }
+    ],
+    "thesis": "The natural primitive R(N) is the BRIDGE between intrinsic and extrinsic manifolds. In the intrinsic 2D manifold, R(N) sets the polygon radius and sub-cycle topology emerges from phi(N). In the extrinsic 3D manifold, R(N) sets the cycle radius and operator distances (3x, 4x, 5x, 6x) emerge from distance-ratio encoding. Both manifolds describe the SAME integer N from different geometric viewpoints."
+  },
+  "golay_weight_totient_analysis": {
+    "weight_class_rows": [
+      {
+        "weight": 0,
+        "phi_N": 0,
+        "C_N": 0,
+        "is_prime": false,
+        "R_N": 1.0,
+        "tension": 0.0,
+        "topological_mass": 0,
+        "interpretation": "Trivial weight (below theorem domain N >= 3)",
+        "codeword_count": 1
+      },
+      {
+        "weight": 8,
+        "phi_N": 4,
+        "C_N": 2,
+        "is_prime": false,
+        "R_N": 1.3065629648763766,
+        "tension": 0.05194055103148021,
+        "topological_mass": 2,
+        "interpretation": "COMPOSITE EXCITED STATE",
+        "codeword_count": 759
+      },
+      {
+        "weight": 12,
+        "phi_N": 4,
+        "C_N": 4,
+        "is_prime": false,
+        "R_N": 1.9318516525781368,
+        "tension": 0.022951383343146614,
+        "topological_mass": 4,
+        "interpretation": "COMPOSITE EXCITED STATE",
+        "codeword_count": 2576
+      },
+      {
+        "weight": 16,
+        "phi_N": 8,
+        "C_N": 4,
+        "is_prime": false,
+        "R_N": 2.5629154477415064,
+        "tension": 0.012884199027224708,
+        "topological_mass": 4,
+        "interpretation": "COMPOSITE EXCITED STATE",
+        "codeword_count": 759
+      },
+      {
+        "weight": 24,
+        "phi_N": 8,
+        "C_N": 8,
+        "is_prime": false,
+        "R_N": 3.830648787770195,
+        "tension": 0.005718111707841977,
+        "topological_mass": 8,
+        "interpretation": "COMPOSITE EXCITED STATE",
+        "codeword_count": 1
+      }
+    ],
+    "weight_class_reactions": [
+      {
+        "label": "octad + octad = hexadecad weight",
+        "reaction": "8 + 8 = 16",
+        "delta_C": 0,
+        "regime": "ISO-RESONANT",
+        "closed_form_matches": true,
+        "is_forbidden_weight": false
+      },
+      {
+        "label": "octad + tetrad = dodecad weight",
+        "reaction": "8 + 4 = 12",
+        "delta_C": 1,
+        "regime": "ENDOTHERMIC",
+        "closed_form_matches": true,
+        "is_forbidden_weight": false
+      },
+      {
+        "label": "dodecad + tetrad = hexadecad weight",
+        "reaction": "12 + 4 = 16",
+        "delta_C": -1,
+        "regime": "EXOTHERMIC",
+        "closed_form_matches": true,
+        "is_forbidden_weight": false
+      },
+      {
+        "label": "dodecad + dodecad = 24 (all-ones)",
+        "reaction": "12 + 12 = 24",
+        "delta_C": 0,
+        "regime": "ISO-RESONANT",
+        "closed_form_matches": true,
+        "is_forbidden_weight": false
+      },
+      {
+        "label": "octad + hexadecad = 24 (all-ones)",
+        "reaction": "8 + 16 = 24",
+        "delta_C": 2,
+        "regime": "ENDOTHERMIC",
+        "closed_form_matches": true,
+        "is_forbidden_weight": false
+      },
+      {
+        "label": "octad + dodecad = 20 (forbidden weight)",
+        "reaction": "8 + 12 = 20",
+        "delta_C": 0,
+        "regime": "ISO-RESONANT",
+        "closed_form_matches": true,
+        "is_forbidden_weight": true
+      }
+    ],
+    "summary": "The 5 Golay weight classes {0, 8, 12, 16, 24} have characteristic intrinsic topological masses M = {0, 2, 4, 4, 8}. The 8+8=16 reaction is ISO-RESONANT (perfect sub-cycle conservation: 2+2=4) \u2014 a deep structural connection between totient kinetics and the Golay Hodge structure."
+  },
+  "verdict": "The Intrinsic-Extrinsic Duality is verified: every integer N has BOTH a 2D intrinsic topology (sub-cycles, primality) AND a 3D extrinsic metric (radius, operator-distance encoding), linked by R(N) = 1/(2 sin(\u03c0/N)). The Prime Ground State Theorem (N prime \u27fa C(N)=0) holds for all N in [3, 999]. The Golay weight classes have characteristic topological masses {0, 2, 4, 4, 8}, and the 8+8=16 reaction is ISO-RESONANT \u2014 a deep structural connection between totient kinetics and the Golay Hodge structure."
+}

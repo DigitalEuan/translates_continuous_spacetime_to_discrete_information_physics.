@@ -1,0 +1,605 @@
+{
+  "steiner_system_results": {
+    "S(2,3,7) Fano": {
+      "n_blocks": 7,
+      "n_pairs_tested": 21,
+      "iso_resonant_count": 21,
+      "iso_resonant_rate": 1.0,
+      "exothermic_count": 0,
+      "endothermic_count": 0,
+      "sample_results": [
+        {
+          "b1_size": 3,
+          "b2_size": 3,
+          "union_size": 5,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 3,
+          "b2_size": 3,
+          "union_size": 5,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 3,
+          "b2_size": 3,
+          "union_size": 5,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 3,
+          "b2_size": 3,
+          "union_size": 5,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 3,
+          "b2_size": 3,
+          "union_size": 5,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 3,
+          "b2_size": 3,
+          "union_size": 5,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 3,
+          "b2_size": 3,
+          "union_size": 5,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 3,
+          "b2_size": 3,
+          "union_size": 5,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 3,
+          "b2_size": 3,
+          "union_size": 5,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 3,
+          "b2_size": 3,
+          "union_size": 5,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        }
+      ]
+    },
+    "S(3,4,8) AG(3,2)": {
+      "n_blocks": 14,
+      "n_pairs_tested": 91,
+      "iso_resonant_count": 91,
+      "iso_resonant_rate": 1.0,
+      "exothermic_count": 0,
+      "endothermic_count": 0,
+      "sample_results": [
+        {
+          "b1_size": 4,
+          "b2_size": 4,
+          "union_size": 6,
+          "M_a": 1,
+          "M_b": 1,
+          "M_c": 2,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 4,
+          "b2_size": 4,
+          "union_size": 6,
+          "M_a": 1,
+          "M_b": 1,
+          "M_c": 2,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 4,
+          "b2_size": 4,
+          "union_size": 6,
+          "M_a": 1,
+          "M_b": 1,
+          "M_c": 2,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 4,
+          "b2_size": 4,
+          "union_size": 6,
+          "M_a": 1,
+          "M_b": 1,
+          "M_c": 2,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 4,
+          "b2_size": 4,
+          "union_size": 6,
+          "M_a": 1,
+          "M_b": 1,
+          "M_c": 2,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 4,
+          "b2_size": 4,
+          "union_size": 6,
+          "M_a": 1,
+          "M_b": 1,
+          "M_c": 2,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 4,
+          "b2_size": 4,
+          "union_size": 6,
+          "M_a": 1,
+          "M_b": 1,
+          "M_c": 2,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 4,
+          "b2_size": 4,
+          "union_size": 6,
+          "M_a": 1,
+          "M_b": 1,
+          "M_c": 2,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 4,
+          "b2_size": 4,
+          "union_size": 6,
+          "M_a": 1,
+          "M_b": 1,
+          "M_c": 2,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 4,
+          "b2_size": 4,
+          "union_size": 6,
+          "M_a": 1,
+          "M_b": 1,
+          "M_c": 2,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        }
+      ]
+    },
+    "S(4,5,11) small Witt": {
+      "n_blocks": 22,
+      "n_pairs_tested": 231,
+      "iso_resonant_count": 55,
+      "iso_resonant_rate": 0.23809523809523808,
+      "exothermic_count": 0,
+      "endothermic_count": 176,
+      "sample_results": [
+        {
+          "b1_size": 5,
+          "b2_size": 5,
+          "union_size": 8,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 2,
+          "delta_C": 2,
+          "regime": "ENDOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 5,
+          "b2_size": 5,
+          "union_size": 8,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 2,
+          "delta_C": 2,
+          "regime": "ENDOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 5,
+          "b2_size": 5,
+          "union_size": 7,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 5,
+          "b2_size": 5,
+          "union_size": 7,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 5,
+          "b2_size": 5,
+          "union_size": 8,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 2,
+          "delta_C": 2,
+          "regime": "ENDOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 5,
+          "b2_size": 5,
+          "union_size": 7,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 0,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 5,
+          "b2_size": 5,
+          "union_size": 8,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 2,
+          "delta_C": 2,
+          "regime": "ENDOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 5,
+          "b2_size": 5,
+          "union_size": 8,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 2,
+          "delta_C": 2,
+          "regime": "ENDOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 5,
+          "b2_size": 5,
+          "union_size": 8,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 2,
+          "delta_C": 2,
+          "regime": "ENDOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 5,
+          "b2_size": 5,
+          "union_size": 8,
+          "M_a": 0,
+          "M_b": 0,
+          "M_c": 2,
+          "delta_C": 2,
+          "regime": "ENDOTHERMIC",
+          "union_is_block": false
+        }
+      ]
+    },
+    "S(5,6,12) large Witt small": {
+      "n_blocks": 12,
+      "n_pairs_tested": 66,
+      "iso_resonant_count": 0,
+      "iso_resonant_rate": 0.0,
+      "exothermic_count": 66,
+      "endothermic_count": 0,
+      "sample_results": [
+        {
+          "b1_size": 6,
+          "b2_size": 6,
+          "union_size": 10,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 3,
+          "delta_C": -1,
+          "regime": "EXOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 6,
+          "b2_size": 6,
+          "union_size": 8,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 2,
+          "delta_C": -2,
+          "regime": "EXOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 6,
+          "b2_size": 6,
+          "union_size": 10,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 3,
+          "delta_C": -1,
+          "regime": "EXOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 6,
+          "b2_size": 6,
+          "union_size": 9,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 1,
+          "delta_C": -3,
+          "regime": "EXOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 6,
+          "b2_size": 6,
+          "union_size": 8,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 2,
+          "delta_C": -2,
+          "regime": "EXOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 6,
+          "b2_size": 6,
+          "union_size": 9,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 1,
+          "delta_C": -3,
+          "regime": "EXOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 6,
+          "b2_size": 6,
+          "union_size": 10,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 3,
+          "delta_C": -1,
+          "regime": "EXOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 6,
+          "b2_size": 6,
+          "union_size": 10,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 3,
+          "delta_C": -1,
+          "regime": "EXOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 6,
+          "b2_size": 6,
+          "union_size": 10,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 3,
+          "delta_C": -1,
+          "regime": "EXOTHERMIC",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 6,
+          "b2_size": 6,
+          "union_size": 9,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 1,
+          "delta_C": -3,
+          "regime": "EXOTHERMIC",
+          "union_is_block": false
+        }
+      ]
+    },
+    "S(5,8,24) Golay": {
+      "n_blocks": 759,
+      "n_pairs_tested": 500,
+      "iso_resonant_count": 500,
+      "iso_resonant_rate": 1.0,
+      "exothermic_count": 0,
+      "endothermic_count": 0,
+      "sample_results": [
+        {
+          "b1_size": 8,
+          "b2_size": 8,
+          "union_size": 12,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 4,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 8,
+          "b2_size": 8,
+          "union_size": 12,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 4,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 8,
+          "b2_size": 8,
+          "union_size": 14,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 4,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 8,
+          "b2_size": 8,
+          "union_size": 16,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 4,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 8,
+          "b2_size": 8,
+          "union_size": 14,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 4,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 8,
+          "b2_size": 8,
+          "union_size": 12,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 4,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 8,
+          "b2_size": 8,
+          "union_size": 14,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 4,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 8,
+          "b2_size": 8,
+          "union_size": 12,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 4,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 8,
+          "b2_size": 8,
+          "union_size": 12,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 4,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        },
+        {
+          "b1_size": 8,
+          "b2_size": 8,
+          "union_size": 14,
+          "M_a": 2,
+          "M_b": 2,
+          "M_c": 4,
+          "delta_C": 0,
+          "regime": "ISO-RESONANT",
+          "union_is_block": false
+        }
+      ]
+    }
+  },
+  "verdict": "ISO-RESONANCE rates across Steiner systems: Fano=100.0%, AG(3,2)=100.0%, small Witt=23.8%, large Witt small=0.0%, Golay=100.0%. ISO-RESONANCE is NOT universally forced by the Steiner property; the rate varies with the block size and ground-set size."
+}

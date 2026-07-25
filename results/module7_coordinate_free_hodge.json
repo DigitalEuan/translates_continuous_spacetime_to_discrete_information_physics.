@@ -1,0 +1,277 @@
+{
+  "n_ghosts_total": 262016,
+  "n_ghosts_sampled": 1500,
+  "n_reference_codewords": 16,
+  "n_distinct_clusters": 149,
+  "cluster_geometry": {
+    "n_clusters_total": 149,
+    "n_top_analyzed": 8,
+    "cluster_info": [
+      {
+        "signature": [
+          8,
+          10,
+          10,
+          10,
+          10,
+          12,
+          12,
+          12
+        ],
+        "n_members": 94,
+        "sample_weight": 12,
+        "mean_weight": 11.702127659574469
+      },
+      {
+        "signature": [
+          10,
+          10,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "n_members": 66,
+        "sample_weight": 12,
+        "mean_weight": 13.181818181818182
+      },
+      {
+        "signature": [
+          8,
+          8,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "n_members": 64,
+        "sample_weight": 10,
+        "mean_weight": 10.875
+      },
+      {
+        "signature": [
+          10,
+          10,
+          10,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "n_members": 61,
+        "sample_weight": 14,
+        "mean_weight": 13.01639344262295
+      },
+      {
+        "signature": [
+          8,
+          8,
+          8,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "n_members": 54,
+        "sample_weight": 8,
+        "mean_weight": 10.925925925925926
+      },
+      {
+        "signature": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          12,
+          12,
+          12
+        ],
+        "n_members": 48,
+        "sample_weight": 14,
+        "mean_weight": 11.875
+      },
+      {
+        "signature": [
+          8,
+          10,
+          10,
+          10,
+          12,
+          12,
+          12,
+          12
+        ],
+        "n_members": 46,
+        "sample_weight": 12,
+        "mean_weight": 12.304347826086957
+      },
+      {
+        "signature": [
+          8,
+          10,
+          10,
+          10,
+          10,
+          10,
+          12,
+          12
+        ],
+        "n_members": 45,
+        "sample_weight": 12,
+        "mean_weight": 11.822222222222223
+      }
+    ],
+    "cayley_menger_distance_matrix": [
+      [
+        0.0,
+        2.3046043552245283,
+        2.2050598115455284,
+        2.7747846746368263,
+        2.2933433712888394,
+        0.8724278123213938,
+        1.435277563675443,
+        1.8454413734132336
+      ],
+      [
+        2.3046043552245283,
+        0.0,
+        3.8299911647153326,
+        1.3886699641805413,
+        3.6775368887406987,
+        2.048993851501128,
+        2.4766097384175123,
+        2.257067486227191
+      ],
+      [
+        2.2050598115455284,
+        3.8299911647153326,
+        0.0,
+        3.828834323286664,
+        1.6509121479815987,
+        2.1620292920592514,
+        1.8160953479198976,
+        1.5624214486427837
+      ],
+      [
+        2.7747846746368263,
+        1.3886699641805413,
+        3.828834323286664,
+        0.0,
+        3.781715318048249,
+        2.812301897296877,
+        2.4158636786395182,
+        2.5386091758393556
+      ],
+      [
+        2.2933433712888394,
+        3.6775368887406987,
+        1.6509121479815987,
+        3.781715318048249,
+        0.0,
+        2.4495334932809274,
+        2.742267362464144,
+        2.561196136881651
+      ],
+      [
+        0.8724278123213938,
+        2.048993851501128,
+        2.1620292920592514,
+        2.812301897296877,
+        2.4495334932809274,
+        0.0,
+        1.8753929084932166,
+        0.7642978703148947
+      ],
+      [
+        1.435277563675443,
+        2.4766097384175123,
+        1.8160953479198976,
+        2.4158636786395182,
+        2.742267362464144,
+        1.8753929084932166,
+        0.0,
+        1.8415116765124602
+      ],
+      [
+        1.8454413734132336,
+        2.257067486227191,
+        1.5624214486427837,
+        2.5386091758393556,
+        2.561196136881651,
+        0.7642978703148947,
+        1.8415116765124602,
+        0.0
+      ]
+    ]
+  },
+  "cluster_dihedral_angles": [
+    {
+      "cluster_i": 0,
+      "cluster_j": 1,
+      "dihedral_angle_deg": 0.0,
+      "modifier": "ID"
+    },
+    {
+      "cluster_i": 0,
+      "cluster_j": 2,
+      "dihedral_angle_deg": 0.13934053415119574,
+      "modifier": "ID"
+    },
+    {
+      "cluster_i": 0,
+      "cluster_j": 3,
+      "dihedral_angle_deg": 0.003537131151965631,
+      "modifier": "ID"
+    },
+    {
+      "cluster_i": 0,
+      "cluster_j": 4,
+      "dihedral_angle_deg": 0.2504418333649176,
+      "modifier": "ID"
+    },
+    {
+      "cluster_i": 1,
+      "cluster_j": 2,
+      "dihedral_angle_deg": 0.13934053415119574,
+      "modifier": "ID"
+    },
+    {
+      "cluster_i": 1,
+      "cluster_j": 3,
+      "dihedral_angle_deg": 0.003537131151965631,
+      "modifier": "ID"
+    },
+    {
+      "cluster_i": 1,
+      "cluster_j": 4,
+      "dihedral_angle_deg": 0.2504418333649176,
+      "modifier": "ID"
+    },
+    {
+      "cluster_i": 2,
+      "cluster_j": 3,
+      "dihedral_angle_deg": 0.13991149685331647,
+      "modifier": "ID"
+    },
+    {
+      "cluster_i": 2,
+      "cluster_j": 4,
+      "dihedral_angle_deg": 0.31199991903171703,
+      "modifier": "ID"
+    },
+    {
+      "cluster_i": 3,
+      "cluster_j": 4,
+      "dihedral_angle_deg": 0.25374374707761993,
+      "modifier": "ID"
+    }
+  ],
+  "verdict": "Ghost states cluster into 149 distinct classes by Hamming signature. Cayley-Menger centroid distances (coordinate-free) reveal a non-trivial geometry: top-8 clusters span a 8-vertex metric space with distances up to 3.83. Dihedral angles between cluster principal planes reveal a 3D-geometric structure that the 1D weight spectrum cannot see."
+}

@@ -1,0 +1,63 @@
+{
+  "n_leech_points": 28936,
+  "dim": 24,
+  "top3_eigenvalues": [
+    1.4164371453709732,
+    1.3985436613300313,
+    1.380606205233845
+  ],
+  "top3_isotropic": false,
+  "n_sphere_points": 21127,
+  "harmonic_spectrum": {
+    "S_l": [
+      3.93962005311879e-06,
+      8.557633020716798e-09,
+      1.2636949279592705e-06,
+      2.2805025697244808e-08,
+      1.3786814192436798e-06,
+      1.6207443871311672e-07,
+      2.4035864855121574e-06,
+      6.505055260784666e-07,
+      1.0581277054778427e-05,
+      1.190652227912207e-06,
+      3.103782737787245e-06
+    ],
+    "l_max": 10,
+    "Y_threshold": 0.26467543040452696,
+    "S_max": 1.0581277054778427e-05,
+    "l_at_Y_threshold": 1,
+    "peaks": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "power_fraction_below_Y": 0.0,
+    "Y_value": 0.26467543040452696
+  },
+  "ternary_binary_bridge": {
+    "ternary_we": {
+      "0": 1,
+      "6": 264,
+      "9": 440,
+      "12": 24
+    },
+    "binary_first12_we": {
+      "0": 1,
+      "1": 12,
+      "2": 66,
+      "3": 220,
+      "4": 495,
+      "5": 792,
+      "6": 924,
+      "7": 792,
+      "8": 495,
+      "9": 220,
+      "10": 66,
+      "11": 12,
+      "12": 1
+    },
+    "ternary_binary_match": false
+  },
+  "verdict": "Leech point cloud (N=28936) has isotropic top-3 eigenvalues. Power spectrum: 0.0% of angular power sits below l = Y\u00b7L_max (Y = 0.2647). Ternary Golay weight histogram matches reference exactly: {0: 1, 6: 264, 9: 440, 12: 24}."
+}

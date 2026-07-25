@@ -1,0 +1,412 @@
+{
+  "r_scan": {
+    "scan_range": [
+      4,
+      200
+    ],
+    "Y_value": 0.26467543040452696,
+    "Y_INV_value": 3.7782124259573746,
+    "n_close_matches": 8,
+    "top_10_closest": [
+      {
+        "n": 6,
+        "transform": "R(n)",
+        "value": 1.0000000000000002,
+        "target": "1",
+        "target_value": 1.0,
+        "relative_error": 2.220446049250313e-16
+      },
+      {
+        "n": 6,
+        "transform": "1/R(n)",
+        "value": 0.9999999999999998,
+        "target": "1",
+        "target_value": 1.0,
+        "relative_error": 2.220446049250313e-16
+      },
+      {
+        "n": 7,
+        "transform": "R(n)",
+        "value": 1.0000000000000002,
+        "target": "1",
+        "target_value": 1.0,
+        "relative_error": 2.220446049250313e-16
+      },
+      {
+        "n": 7,
+        "transform": "1/R(n)",
+        "value": 0.9999999999999998,
+        "target": "1",
+        "target_value": 1.0,
+        "relative_error": 2.220446049250313e-16
+      },
+      {
+        "n": 62,
+        "transform": "R(n)/\u03c0",
+        "value": 3.142301181658253,
+        "target": "\u03c0",
+        "target_value": 3.141592653589793,
+        "relative_error": 0.00022553148882952412
+      },
+      {
+        "n": 63,
+        "transform": "R(n)/\u03c0",
+        "value": 3.142301181658253,
+        "target": "\u03c0",
+        "target_value": 3.141592653589793,
+        "relative_error": 0.00022553148882952412
+      },
+      {
+        "n": 74,
+        "transform": "R(n)/\u03c0",
+        "value": 3.7500101577313254,
+        "target": "Y_INV",
+        "target_value": 3.7782124259573746,
+        "relative_error": 0.007464447481113489
+      },
+      {
+        "n": 75,
+        "transform": "R(n)/\u03c0",
+        "value": 3.7500101577313254,
+        "target": "Y_INV",
+        "target_value": 3.7782124259573746,
+        "relative_error": 0.007464447481113489
+      }
+    ]
+  },
+  "r_ratios": {
+    "ratios": [
+      {
+        "weight_pair": "12/0",
+        "ratio": 2.7320508075688776,
+        "target": "e",
+        "target_value": 2.718281828459045,
+        "relative_error": 0.005065324340426461
+      },
+      {
+        "weight_pair": "16/0",
+        "ratio": 3.6245097854115516,
+        "target": "Y_INV",
+        "target_value": 3.7782124259573746,
+        "relative_error": 0.04068131254077801
+      },
+      {
+        "weight_pair": "0/16",
+        "ratio": 0.275899379282943,
+        "target": "Y",
+        "target_value": 0.26467543040452696,
+        "relative_error": 0.04240646312074184
+      }
+    ],
+    "n_close_matches": 3,
+    "radii_by_weight": {
+      "0": 0.7071067811865476,
+      "8": 1.3065629648763766,
+      "12": 1.9318516525781368,
+      "16": 2.5629154477415064,
+      "24": 3.830648787770195
+    }
+  },
+  "continued_fractions": {
+    "Y_value": 0.26467543040452696,
+    "Y_continued_fraction": [
+      0,
+      3,
+      1,
+      3,
+      1,
+      1,
+      27,
+      1,
+      5,
+      1
+    ],
+    "Y_identified_as": "(2**(40/249)*7**(46/249))/(3**(52/249)*5**(81/83))",
+    "R8_over_pi_cf": [
+      0,
+      2,
+      2,
+      2,
+      8,
+      1,
+      1,
+      4,
+      1,
+      5
+    ],
+    "R24_over_pi_cf": [
+      1,
+      4,
+      1,
+      1,
+      3,
+      1,
+      2,
+      1,
+      1,
+      4
+    ],
+    "R8_over_R24_cf": [
+      0,
+      2,
+      1,
+      13,
+      1,
+      2,
+      15,
+      10,
+      1,
+      18
+    ],
+    "interpretation": "The continued fraction of Y = \u03c0/(\u03c0\u00b2+2) is compared to those of R(n)/\u03c0 for the Golay weight classes. A shared convergent would indicate a deep arithmetic link between the spatial primitive and the Observer constant."
+  },
+  "catenary_curvature": {
+    "weight_class_curvatures": [
+      {
+        "weight": 0,
+        "n_nodes": 4,
+        "spatial_value": 0,
+        "R_n": 0.7071067811865476,
+        "integrated_curvature": 0.6739904490216863,
+        "per_node_curvature": 0.16849761225542156,
+        "bumpiness_R_times_kappa": 0.47658321695820044
+      },
+      {
+        "weight": 8,
+        "n_nodes": 8,
+        "spatial_value": 2,
+        "R_n": 1.3065629648763766,
+        "integrated_curvature": 1.3479808980433725,
+        "per_node_curvature": 0.16849761225542156,
+        "bumpiness_R_times_kappa": 1.7612219187442695
+      },
+      {
+        "weight": 12,
+        "n_nodes": 12,
+        "spatial_value": 4,
+        "R_n": 1.9318516525781368,
+        "integrated_curvature": 2.021971347065059,
+        "per_node_curvature": 0.1684976122554216,
+        "bumpiness_R_times_kappa": 3.906148688293276
+      },
+      {
+        "weight": 16,
+        "n_nodes": 16,
+        "spatial_value": 6,
+        "R_n": 2.5629154477415064,
+        "integrated_curvature": 2.695961796086745,
+        "per_node_curvature": 0.16849761225542156,
+        "bumpiness_R_times_kappa": 6.909522133711656
+      },
+      {
+        "weight": 24,
+        "n_nodes": 24,
+        "spatial_value": 10,
+        "R_n": 3.830648787770195,
+        "integrated_curvature": 4.043942694130118,
+        "per_node_curvature": 0.1684976122554216,
+        "bumpiness_R_times_kappa": 15.490924179081674
+      }
+    ],
+    "Y_value": 0.26467543040452696,
+    "formula": "\u222b\u2080\u207f \u03ba(h) dh = 2nY/\u03c0 = 2n/(\u03c0\u00b2+2)"
+  },
+  "golden_ratio_cross_check": {
+    "phi_value": 1.618033988749895,
+    "phi_related_n_values": [
+      {
+        "k": 1,
+        "n_phi": 2,
+        "n_total": 6,
+        "spatial_value": 1,
+        "R_n": 1.0000000000000002,
+        "R_over_pi": 0.31830988618379075,
+        "R_mod_1": 2.220446049250313e-16
+      },
+      {
+        "k": 2,
+        "n_phi": 3,
+        "n_total": 7,
+        "spatial_value": 1,
+        "R_n": 1.0000000000000002,
+        "R_over_pi": 0.31830988618379075,
+        "R_mod_1": 2.220446049250313e-16
+      },
+      {
+        "k": 3,
+        "n_phi": 5,
+        "n_total": 9,
+        "spatial_value": 2,
+        "R_n": 1.3065629648763766,
+        "R_over_pi": 0.4158919086417555,
+        "R_mod_1": 0.3065629648763766
+      },
+      {
+        "k": 4,
+        "n_phi": 6,
+        "n_total": 10,
+        "spatial_value": 3,
+        "R_n": 1.618033988749895,
+        "R_over_pi": 0.5150362148004839,
+        "R_mod_1": 0.6180339887498949
+      },
+      {
+        "k": 5,
+        "n_phi": 8,
+        "n_total": 12,
+        "spatial_value": 4,
+        "R_n": 1.9318516525781368,
+        "R_over_pi": 0.6149274796561147,
+        "R_mod_1": 0.9318516525781368
+      },
+      {
+        "k": 6,
+        "n_phi": 10,
+        "n_total": 14,
+        "spatial_value": 5,
+        "R_n": 2.246979603717467,
+        "R_over_pi": 0.7152358219166061,
+        "R_mod_1": 0.2469796037174672
+      },
+      {
+        "k": 7,
+        "n_phi": 11,
+        "n_total": 15,
+        "spatial_value": 5,
+        "R_n": 2.246979603717467,
+        "R_over_pi": 0.7152358219166061,
+        "R_mod_1": 0.2469796037174672
+      },
+      {
+        "k": 8,
+        "n_phi": 13,
+        "n_total": 17,
+        "spatial_value": 6,
+        "R_n": 2.5629154477415064,
+        "R_over_pi": 0.8158013244692778,
+        "R_mod_1": 0.5629154477415064
+      },
+      {
+        "k": 9,
+        "n_phi": 15,
+        "n_total": 19,
+        "spatial_value": 7,
+        "R_n": 2.879385241571817,
+        "R_over_pi": 0.9165367885240117,
+        "R_mod_1": 0.8793852415718169
+      },
+      {
+        "k": 10,
+        "n_phi": 16,
+        "n_total": 20,
+        "spatial_value": 8,
+        "R_n": 3.196226610749831,
+        "R_over_pi": 1.0173905286853817,
+        "R_mod_1": 0.19622661074983094
+      },
+      {
+        "k": 11,
+        "n_phi": 18,
+        "n_total": 22,
+        "spatial_value": 9,
+        "R_n": 3.513337091666135,
+        "R_over_pi": 1.1183299297735376,
+        "R_mod_1": 0.5133370916661351
+      },
+      {
+        "k": 12,
+        "n_phi": 19,
+        "n_total": 23,
+        "spatial_value": 9,
+        "R_n": 3.513337091666135,
+        "R_over_pi": 1.1183299297735376,
+        "R_mod_1": 0.5133370916661351
+      },
+      {
+        "k": 13,
+        "n_phi": 21,
+        "n_total": 25,
+        "spatial_value": 10,
+        "R_n": 3.830648787770195,
+        "R_over_pi": 1.2193333796452066,
+        "R_mod_1": 0.8306487877701949
+      },
+      {
+        "k": 14,
+        "n_phi": 23,
+        "n_total": 27,
+        "spatial_value": 11,
+        "R_n": 4.148114905279377,
+        "R_over_pi": 1.3203859833767642,
+        "R_mod_1": 0.14811490527937732
+      },
+      {
+        "k": 15,
+        "n_phi": 24,
+        "n_total": 28,
+        "spatial_value": 12,
+        "R_n": 4.465702135190253,
+        "R_over_pi": 1.4214771383831204,
+        "R_mod_1": 0.46570213519025305
+      },
+      {
+        "k": 16,
+        "n_phi": 26,
+        "n_total": 30,
+        "spatial_value": 13,
+        "R_n": 4.783386116752814,
+        "R_over_pi": 1.5225990903967126,
+        "R_mod_1": 0.7833861167528138
+      },
+      {
+        "k": 17,
+        "n_phi": 28,
+        "n_total": 32,
+        "spatial_value": 14,
+        "R_n": 5.101148618689164,
+        "R_over_pi": 1.623746036221549,
+        "R_mod_1": 0.10114861868916414
+      },
+      {
+        "k": 18,
+        "n_phi": 29,
+        "n_total": 33,
+        "spatial_value": 14,
+        "R_n": 5.101148618689164,
+        "R_over_pi": 1.623746036221549,
+        "R_mod_1": 0.10114861868916414
+      },
+      {
+        "k": 19,
+        "n_phi": 31,
+        "n_total": 35,
+        "spatial_value": 15,
+        "R_n": 5.4189757237297105,
+        "R_over_pi": 1.7249135458531288,
+        "R_mod_1": 0.4189757237297105
+      },
+      {
+        "k": 20,
+        "n_phi": 32,
+        "n_total": 36,
+        "spatial_value": 16,
+        "R_n": 5.736856622834928,
+        "R_over_pi": 1.8260981786673118,
+        "R_mod_1": 0.736856622834928
+      }
+    ],
+    "closest_R_to_Y": {
+      "k": 1,
+      "n": 6,
+      "R": 1.0000000000000002,
+      "err": 2.7782124259573755
+    },
+    "closest_R_to_Y_INV": {
+      "k": 13,
+      "n": 25,
+      "R": 3.830648787770195,
+      "err": 0.013878616631655714
+    }
+  },
+  "verdict": "R(n) scan over n \u2208 [4, 200] found 8 near-matches to Y/1/Y/\u03c0. Top match: {'n': 6, 'transform': 'R(n)', 'value': 1.0000000000000002, 'target': '1', 'target_value': 1.0, 'relative_error': 2.220446049250313e-16}. Continued fraction of Y = [0, 3, 1, 3, 1, 1, 27, 1, 5, 1]. The catenary curvature \u222b\u03ba = 2nY/\u03c0 gives each weight class a characteristic bumpiness; this is the geometric origin of the Hodge gap."
+}
