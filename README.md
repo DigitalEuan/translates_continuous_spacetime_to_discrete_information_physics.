@@ -172,8 +172,8 @@ catenary_hodge/
 *   **Hirani, A. N. (2003).** *Discrete Exterior Calculus*. PhD thesis, Caltech. ($d^2=0$ axiom).
 
 ### UBP / LDP Framework
-*   **Craig, E. R. A. (2026).** *UBP Core Studio v4.0*. [[GitHub Repository](https://github.com/DigitalEuan/translates_continuous_spacetime_to_discrete_information_physics./edit/main/README.md)].
-*   **Craig, E. R. A. (2026).** *Literal Data Physics and the Discrete Hodge Conjecture (LDP Paper v3)*.
+*   **Craig, E. R. A. (2026).** *UBP Core Studio v4.0*. [GitHub Repository](https://github.com/DigitalEuan/UBP_Repo).
+*   **Craig, E. R. A. (2026).** *Literal Data Physics and the Discrete Hodge Conjecture [LDP paper](https://github.com/DigitalEuan/translates_continuous_spacetime_to_discrete_information_physics./blob/main/docs/ldp_paper_v3.txt).
 *   **Craig, E. R. A. (2026).** *Spatial Arithmetic — Computing with 3D Geometry*.
 
 ---
