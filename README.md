@@ -174,7 +174,7 @@ catenary_hodge/
 ### UBP / LDP Framework
 *   **Craig, E. R. A. (2026).** *UBP Core Studio v4.0*. [GitHub Repository](https://github.com/DigitalEuan/UBP_Repo).
 *   **Craig, E. R. A. (2026).** *Literal Data Physics and the Discrete Hodge Conjecture [LDP paper](https://github.com/DigitalEuan/translates_continuous_spacetime_to_discrete_information_physics./blob/main/docs/ldp_paper_v3.txt).
-*   **Craig, E. R. A. (2026).** *Spatial Arithmetic — Computing with 3D Geometry*.
+*   **Craig, E. R. A. (2026).** *Spatial Arithmetic — Computing with 3D Geometry*. [full py script](https://github.com/DigitalEuan/translates_continuous_spacetime_to_discrete_information_physics./blob/main/catenary_hodge/vendors/spatial_arithmetic.py)
 
 ---
 
