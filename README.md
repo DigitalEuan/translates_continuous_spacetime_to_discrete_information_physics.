@@ -1,5 +1,7 @@
 # Project Catenary-Hodge & Spatial Arithmetic
-### A Rigorous Framework for Discrete Information Geometry, Substrate Renormalization, and the Discrete Hodge Conjecture
+### A Framework for Discrete Information Geometry, Substrate Renormalization, and the Discrete Hodge Conjecture
+
+* E R A Craig, New Zealand, 25 July 2026.
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -8,7 +10,7 @@
 
 **Project Catenary-Hodge** asks a single, fundamental question: *Can the geometric properties of a discrete error-correcting code fully characterize its algebraic structure?* 
 
-Building on the **Universal Binary Principle (UBP)** and **Literal Data Physics (LDP)**, this repository operationalizes the discrete analog of the Hodge Conjecture. By mapping the extended binary Golay code $G_{24}$ and the Leech lattice $\Lambda_{24}$ to coordinate-free geometric manifolds, we bridge continuous differential geometry, algebraic coding theory, and geometric number theory.
+Building on the **Universal Binary Principle (UBP)** and **Literal Data Physics (LDP)** (specifically designed for this study), this repository operationalizes the discrete analog of the Hodge Conjecture. By mapping the extended binary Golay code $G_{24}$ and the Leech lattice $\Lambda_{24}$ to coordinate-free geometric manifolds, we bridge continuous differential geometry, algebraic coding theory, and geometric number theory.
 
 ---
 
@@ -31,7 +33,7 @@ This project translates proprietary UBP/LDP concepts into standard, peer-reviewe
 
 The mathematical foundations of this framework are self-contained. All algebraic computation uses Python's `fractions.Fraction` to guarantee **zero numerical drift**.
 
-### 1. The Natural Primitive (Spatial Arithmetic)
+### 1. The "Natural" Primitive (Spatial Arithmetic)
 The spatial footprint (circumradius) of an integer $N$ encoded as a unit-edge regular $N$-gon is governed by the exact radial transformation:
 $$R(N) = \frac{1}{2 \sin(\pi / N)}$$
 This primitive acts as the geometric equivalent of the logarithmic/exponential operator, from which all spatial arithmetic operations (addition via topology, multiplication via distance, division via radius ratio) are derived.
@@ -81,8 +83,8 @@ The capstone of this framework maps all systems—vector operators, projection s
 
 ### Full Reproducible Run (~3 minutes)
 ```bash
-git clone https://github.com/DigitalEuan/UBP_Repo.git
-cd UBP_Repo/catenary_hodge
+git clone https://github.com/DigitalEuan.git
+cd translates_continuous_spacetime_to_discrete_information_physics.
 python3 run_all.py
 ```
 
@@ -126,7 +128,7 @@ python3 spatial_arithmetic.py --natural 5 3
 | **14. $\rho_\infty$** | Dirichlet convergence | 0.196036 (err 0.0002) | ✅ PASS |
 | **Capstone** | $d^2=0$ axiom ($H \cdot G^T = 0$) | True | ✅ PASS |
 
-> **Note on Falsifications:** The Z4 Gray map and Relativistic Dispersion hypotheses were intentionally tested and failed. These are **Structural Falsifications** that rigorously define the geometric boundaries of the substrate (e.g., proving the $E=MC^2$ analogy is strictly a near-codeword metaphor, not a global fit).
+> **Note on Falsifications:** The Z4 Gray map and Relativistic Dispersion hypotheses were intentionally tested and failed. These are structural falsifications that **define the geometric boundaries** of the substrate (e.g., proving the $E=MC^2$ (my analogy) is strictly a near-codeword metaphor, not a global fit).
 
 ---
 
